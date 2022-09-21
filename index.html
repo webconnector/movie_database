@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/styles.css">
+    <title>Movie Database-Your N0.1 movie details</title>
+</head>
+<body>
+    <!-- The navigation bar -->
+    <nav class="navbar navbar-degfault bg-secondary">
+        <div class="container">
+            <div class="navbar-header">
+                <div class="navbar-brand text-white" href="index.html">Movie Database</div>
+            </div>
+        </div>
+    </nav>
+
+    <!-- The jumbotron -->
+    <div class="container mt-3">
+        <div class="jumbotron">
+            <h3 class="text-center mb-3">Search For Any Movie</h3>
+            <form action="" id="searchForm">
+                <input type="text" class="form-control" id="searchText" placeholder="Search Movies Here...">
+            </form>
+        </div>
+    </div>
+
+    <!-- Output display as will be generated using javascrip -->
+    <div class="container">
+        <div id="movies" class="row  mt-2 p-2"></div>
+    </div>
+
+    <!-- Jquery -->
+    <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
+
+    <!-- axios client -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <Script src="js/index.js"></Script>
+</body>
+</html>
